@@ -1,5 +1,5 @@
 # E-Commerce Sales Performance Dashboard
-
+![E-Commerce Sales Performance Dashboard](Pictures/dashboard.png)
 ## Project Overview
 
 This project focuses on analysing e-commerce sales data and developing an interactive Excel dashboard to understand sales performance, revenue trends, customer orders and operational metrics.
