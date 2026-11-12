@@ -288,22 +288,27 @@ on them.
 
 ## Repository Contents
 
-``` text
+```text
 E-Commerce-Sales-Performance-Dashboard/
-├── README.md
+│
 ├── E-Commerce-Sales-Performance-Dashboard.xlsx
+├── README.md
+│
 └── Pictures/
-    ├── dashboard.png
-    ├── power-query-cleaning.png
-    ├── data-model-relationships.png
-    ├── dax-measures.png
-    ├── findings-summary.png
-    └── q-and-a-formulas.png
+    ├── Dashboard.png
+    ├── Data_Dictionary.png
+    ├── Findings.png
+    ├── Findings_Summary.png
+    ├── Measures.png
+    ├── Measures_and_DAX_calculated_columns.png
+    ├── Measures_list.png
+    ├── Pivot_Tables.png
+    ├── Power_Query_applied_steps.png
+    ├── Power_pivot_Table_relationship.png
+    ├── Q&As.png
+    ├── Table.png
+    └── applied_steps_2.png
 ```
-
-The image names above are suggested placeholders. Add only the
-screenshots that are actually included in the repository, and update the
-README image links accordingly.
 
 ## Project Objective
 
