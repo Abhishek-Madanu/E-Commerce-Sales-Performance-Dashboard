@@ -1,5 +1,9 @@
 # E-Commerce Sales Performance Dashboard
 
+## Dashboard Preview
+
+![E-Commerce Sales Performance Dashboard](Pictures/Dashboard.png)
+
 An end-to-end e-commerce sales analysis project built in Microsoft
 Excel. The project combines data cleaning, data-quality investigation,
 data modelling, DAX calculations, PivotTables, PivotCharts, and an
@@ -18,6 +22,12 @@ Data Model - DAX - PivotTables and PivotCharts - Excel formulas and
 functions - Slicers
 
 ## Dataset
+
+### Dataset Structure
+
+![Source Data Table](Pictures/Table.png)
+
+![Data Dictionary](Pictures/Data_Dictionary.png)
 
 The workbook contains **1,502 order records** covering the 2025 calendar
 year, with order-level details such as:
@@ -52,6 +62,12 @@ category capitalization: - `STORAGE` → `Storage` - `ACCESSORIES` →
 order-status values. - Creating analysis fields for `Gross_Sales`,
 `Discount_Amount`, `Net_Revenue`, and delivery duration.
 
+### Power Query Transformations
+
+![Power Query Applied Steps](Pictures/Power_Query_applied_steps.png)
+
+![Additional Power Query Transformations](Pictures/applied_steps_2.png)
+
 Missing values were investigated rather than automatically replaced: - 3
 Customer IDs were missing. - 3 Discount % values were missing. - 423
 Delivery Dates were missing.
@@ -71,6 +87,10 @@ measures and analysis.
 **Dimension tables** - `Products` --- product-related attributes. -
 `Customers` --- customer attributes. - `Calendar` --- a complete date
 dimension for the 2025 reporting period.
+
+### Data Model Relationships
+
+![Power Pivot Table Relationships](Pictures/Power_pivot_Table_relationship.png)
 
 The model was organised to support analysis by date, product, and
 customer dimensions. The Calendar table contains 365 dates for 2025.
@@ -98,10 +118,22 @@ Order Value - Delivered Orders and Delivered Rate - Cancelled Orders and
 Cancellation Rate - Returned Orders and Return Rate - Shipped Orders and
 Shipped Rate
 
+### DAX Measures and Calculated Columns
+
+![DAX Measures](Pictures/Measures.png)
+
+![DAX Calculated Columns](Pictures/Measures_and_DAX_calculated_columns.png)
+
+![DAX Measures List](Pictures/Measures_list.png)
+
 ### 4. PivotTables, PivotCharts, and dashboard
 
 PivotTables were used to summarise the data, and PivotCharts were used
 to present the results visually.
+
+### Supporting PivotTables
+
+![Supporting PivotTables](Pictures/Pivot_Tables.png)
 
 The dashboard includes: - Total Net Revenue - Delivered Revenue - Total
 Orders - Average Order Value - Delivered Rate - Delivered Orders -
@@ -113,6 +145,12 @@ Method - Top 10 Products by Net Revenue
 dashboard. Supporting PivotTables are kept on a separate worksheet.
 
 ## Key Findings
+
+### Data Quality Investigation
+
+![Findings Summary](Pictures/Findings_Summary.png)
+
+![Detailed Findings](Pictures/Findings.png)
 
 The following figures are based on the workbook's analysis:
 
@@ -164,6 +202,12 @@ themselves establish the causes of cancellations, returns, or changes in
 revenue.
 
 ## Excel Functions and Business Q&A Practice
+
+### Excel Formula Practice – Business Q&As
+
+The Q&As worksheet contains practical business questions with Excel formula-based answers, demonstrating the application of Excel functions to real dataset scenarios.
+
+![Excel Q&A Formula Practice](Pictures/Q&As.png)
 
 The `Q&As` worksheet contains **53 numbered business-style questions**
 with formula-based answers and practical data-tool exercises. It
